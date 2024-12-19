@@ -1,0 +1,22 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.p{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    margin-right: 5px;
+}
+.d{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+
+.rbox{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: fit-content;
+    font-size: 20px;
+  }
+
+.rbox label{
+    margin-bottom: 0px;
+}
+.rbox input{
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding-left: 2px;
+    outline:none;
+}
+
+.flname{
+    width: 150px;
+}
+.otp{
+    width: 50px;
+    height: 25px;
+}
+.otp:hover{
+    text-decoration: underline;
+    color: rgb(80, 80, 228);
+    cursor: pointer;
+}
+.signin{
+    text-decoration: none;
+    color:black;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.signin:hover{
+    color:blueviolet;
+    text-decoration: underline;
+}

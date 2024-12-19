@@ -1,0 +1,155 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+  }
+.c1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content:center  ;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+.cdiv{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-bottom: 30px;
+    background-color:rgb(179, 134, 75) ;
+}
+.ctop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.cgap{
+    margin-bottom: 20px;
+}
+.cdiv1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.cbtn{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 120px;
+}
+.cbuy{
+    text-align: center;
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+}
+.chl1{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 300px;
+}
+.chtot{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.tab{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+.br{
+    border-right-width: 1px;
+    border-right: 1px solid black;
+}
+.bb{
+    border-bottom-width: 1px;
+    border-bottom: 1px solid black;
+}
+
+/* single product page */
+.sp1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: fit-content;
+    height: fit-content;
+}
+.sp2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+.sp3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+
+/* --> */
+.buy1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    width: 100%;
+    height: auto;
+}
+.buy2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.buy3{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+   
+}
+.buy4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 15px 0px 15px 35px;
+    width: 540px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(29, 28, 28);
+}
+.buydown1{
+    margin-bottom: 10px;
+}
+.buydown2{
+    margin-bottom: 5px;
+}
+.inpbox{
+    width:330px;
+    height: 25px;
+}
+.buy5{
+    display: flex;
+    margin:  10px 10px 20px 0px;
+}
+.hid{
+    opacity: 0.5;
+}
+.pcd3 {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(230, 226, 226);
+    border: 0.5px solid black;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
