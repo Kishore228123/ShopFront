@@ -31,7 +31,7 @@ export function Table1() {
             if (user) {
                 const encodeMail = encodeURIComponent(emailOver);
 
-                const cartDelete = await fetch(`http://localhost:8000/${encodeMail}`, {
+                const cartDelete = await fetch(`${process.env.BACKENDLINK}/${encodeMail}`, {
                     method: 'Delete',
                     headers: {
                         'Content-Type': 'application/json',
