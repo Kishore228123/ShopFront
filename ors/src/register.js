@@ -11,17 +11,12 @@ export default function Register() {
     const { userDetails, setuserDetails } = Tranfer();
 
 
-<<<<<<< HEAD
-    const updateFunction = async () => {
 
-
-        try {
-=======
+   
     const updateFunction = async() =>{
             
    
         try{
->>>>>>> 450c8a32daf5f6f701a1d12c5438bae839cb0a6b
             const updateUser = await fetch(`${process.env.BACKENDLINK}`, {
                 method: 'POST',
                 headers: {
@@ -39,7 +34,7 @@ export default function Register() {
         }
     }
 
-<<<<<<< HEAD
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         const fetchData = async () => {
@@ -65,7 +60,7 @@ export default function Register() {
             }
             catch (e) {
                 console.error(e);
-=======
+
 const handleSubmit = async (e) => {
     e.preventDefault();
     const fetchData = async () =>{
@@ -78,7 +73,6 @@ const handleSubmit = async (e) => {
             if(dataJson.userLogins[i].email === userDetails.email){
                 flag=1;
                 break;
->>>>>>> 450c8a32daf5f6f701a1d12c5438bae839cb0a6b
             }
         }
 
@@ -98,7 +92,6 @@ const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const response = await fetch(`${process.env.BACKENDLINK}/sendOtp`, {
-<<<<<<< HEAD
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -106,7 +99,6 @@ const handleSubmit = async (e) => {
                 body: JSON.stringify({
                     email: userDetails.email,
                 }),
-=======
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -114,7 +106,6 @@ const handleSubmit = async (e) => {
               body: JSON.stringify( {
                 email:userDetails.email,
             }),
->>>>>>> 450c8a32daf5f6f701a1d12c5438bae839cb0a6b
             });
 
             const data = await response.json();
