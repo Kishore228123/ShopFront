@@ -33,7 +33,7 @@ export const AddCart = async (idd) => {
     console.log("email : _",emailOver ," gmail");
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:8000');
+        const response = await fetch(`${process.env.BACKENDLINK}`);
         const dataJson = await response.json();
 
         const user = dataJson.userLogins.find(e => e.email === emailOver);
@@ -41,7 +41,7 @@ export const AddCart = async (idd) => {
         if (user) {
           const encodedMail = encodeURIComponent(emailOver);
 
-          const updateUser = await fetch(`http://localhost:8000/${encodedMail}`, {
+          const updateUser = await fetch(`${process.env.BACKENDLINK}/${encodedMail}`, {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json',
