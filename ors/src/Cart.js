@@ -23,7 +23,7 @@ export function Table1() {
         Sarr2(newarr);
 
         try {
-            const response = await fetch('http://localhost:8000');
+            const response = await fetch(`${process.env.BACKENDLINK}`);
             const dataJson = await response.json();
 
             console.log("user delete: ", emailOver);
@@ -31,7 +31,7 @@ export function Table1() {
             if (user) {
                 const encodeMail = encodeURIComponent(emailOver);
 
-                const cartDelete = await fetch(`http://localhost:8000/${encodeMail}`, {
+                const cartDelete = await fetch(`${process.env.BACKENDLINK}/${encodeMail}`, {
                     method: 'Delete',
                     headers: {
                         'Content-Type': 'application/json',

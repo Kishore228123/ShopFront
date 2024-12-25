@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.88cee160.css",
-    "main.js": "/static/js/main.b887f8ac.js",
+    "main.css": "/static/css/main.601d8a4b.css",
+    "main.js": "/static/js/main.1ec39d6e.js",
     "static/media/PSMrice.jpg": "/static/media/PSMrice.0a8a300580b33c317898.jpg",
     "static/media/aromaticrice.png": "/static/media/aromaticrice.8ab594b3546b504a8ae0.png",
     "static/media/japonica.jpg": "/static/media/japonica.68c5db32b66eb0ee78e6.jpg",
@@ -22,11 +22,11 @@
     "static/media/roma.webp": "/static/media/roma.304c9318606e17586bf5.webp",
     "static/media/shortgrain.webp": "/static/media/shortgrain.e8e5353806bba4f19750.webp",
     "index.html": "/index.html",
-    "main.88cee160.css.map": "/static/css/main.88cee160.css.map",
-    "main.b887f8ac.js.map": "/static/js/main.b887f8ac.js.map"
+    "main.601d8a4b.css.map": "/static/css/main.601d8a4b.css.map",
+    "main.1ec39d6e.js.map": "/static/js/main.1ec39d6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.88cee160.css",
-    "static/js/main.b887f8ac.js"
+    "static/css/main.601d8a4b.css",
+    "static/js/main.1ec39d6e.js"
   ]
 }
