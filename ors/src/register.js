@@ -15,7 +15,7 @@ export default function Register(){
             
    
         try{
-            const updateUser = await fetch("http://localhost:8000", {
+            const updateUser = await fetch(`${process.env.BACKENDLINK}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -37,7 +37,7 @@ const handleSubmit = async (e) => {
     const fetchData = async () =>{
         try{
             let flag=0;
-        const data= await fetch("http://localhost:8000");
+        const data= await fetch(`${process.env.BACKENDLINK}`);
         const dataJson= await data.json();
         const len = dataJson.userLogins.length;
         for(let i=0;i<len;i++){
@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
     const sendOtp = async(e)=>{
         e.preventDefault();
         try {
-            const response = await fetch("http://localhost:8000/sendOtp", {
+            const response = await fetch(`${process.env.BACKENDLINK}/sendOtp`, {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
