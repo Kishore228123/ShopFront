@@ -28,6 +28,9 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+  "react-scripts": "^4.0.3",
+},
   "browserslist": {
     "production": [
       ">0.2%",
